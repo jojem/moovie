@@ -19,30 +19,26 @@
 }
 
 .progressBar{
-	width: 400px;
+	width: 500px;
 	height: 22px;
 	position: absolute;
 	border: 1px solid black;
-	left: 100px;
-	top: 100px;
 }
 
 .slider {
-	width: 50px;
 	height: 20px;
 	border: 1px solid green;
 	background: green;
-	position: absolute;
-	animation: move linear 1s 1s alternate infinite;
+	animation: move linear 2s forwards 0s;
 }
 
 @keyframes move {
 	0% {
-		left: 0px;
+		width: 0px;
 	}
 	
 	100% {
-		left: 350px;
+		width: 498px;
 	}
 }
 
