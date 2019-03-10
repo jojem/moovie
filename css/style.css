@@ -6,7 +6,7 @@
 	background: #fff;
 	left: 200px;
 	top: 200px;
-	animation: moving 3s steps(20, start) infinite;
+	animation: moving 3s alternate forwards;
 }
 
 @keyframes moving{
@@ -17,3 +17,45 @@
 		left: 1500px;
 	}
 }
+
+.progressBar{
+	width: 400px;
+	height: 22px;
+	position: absolute;
+	border: 1px solid black;
+	left: 100px;
+	top: 100px;
+}
+
+.slider {
+	width: 50px;
+	height: 20px;
+	border: 1px solid green;
+	background: green;
+	position: absolute;
+	animation: move linear 1s 1s alternate infinite;
+}
+
+@keyframes move {
+	0% {
+		left: 0px;
+	}
+	
+	100% {
+		left: 350px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
