@@ -42,6 +42,60 @@
 	}
 }
 
+.trafficLight {
+	width: 50px;
+	height: 153px;
+	position: absolute;
+	padding: 10px;
+	border: 1px solid #000;
+	background: #3C4147;
+	border-radius: 10px;
+	left: 100px;
+	top: 100px;
+}
+
+.red, .yellow, .green {
+	width: 49px;
+	height: 49px;
+	border-radius: 50%;
+	background: black;
+	box-shadow: inset 2px 2px 4px rgba(0,0,0, .4) inset -2px -2px 4px rgba(255, 255, 255, .6);
+}
+
+.red {
+	animation: turnRed 2s 3s;
+}
+.yellow {
+	animation: turnYellow 1s 4s;
+}
+.green {
+	animation: turnGreen 1s 5s;
+}
+
+@keyframes turnRed {
+	0%{
+		background: red;
+	}
+	100%{
+		background: red;
+	}
+}
+@keyframes turnYellow {
+	0%{
+		background: yellow;
+	}
+	100%{
+		background: yellow;
+	}
+}
+@keyframes turnGreen {
+	0%{
+		background: green;
+	}
+	100%{
+		background: green;
+	}
+}
 
 
 
@@ -53,5 +107,9 @@
 
 
 
+
+
+
+
 
 
