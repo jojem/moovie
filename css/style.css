@@ -27,26 +27,47 @@ body{
 		display: block;
 		height: 100%;
 		margin: 0;
+		padding: 0;
 	}
 
-		.topMenu li{
-			padding: 10px;
-			cursor: pointer;
-			list-style: none;
-			display: inline-block;
-			min-width: 150px;
-			vertical-align: middle;
-			height: 30px;
+	.topMenu li{
+		padding: 10px;
+		cursor: pointer;
+		list-style: none;
+		display: inline-block;
+		min-width: 150px;
+		vertical-align: middle;
+		position: relative;
+		height: 30px;
+	}
+		
+		.topMenu li a{
+			text-decoration: none;
+			line-height: 30px;
+			color: #311919;
 		}
-			
-			.topMenu li a{
-				text-decoration: none;
-				color: #311919;
-			}
-			
-			.topMenu li:hover{
-				background: #707585;
-			}
+		
+		.topMenu li:hover{
+			background: #707585;
+		}
+		
+	.topMenu ul .subMenu{
+		position: absolute;
+		display: none;
+		list-style: none;
+		padding: 0;
+		top: 50px;
+		left: 0;
+	}
+	.topMenu .subMenu li{
+		background: #b1b7cb;
+	}
+	.topMenu .subMenu li:hover{
+		background: #707585;
+	}
+	.topMenu li:hover > .subMenu{
+		display: block;
+	}
 
 
 
