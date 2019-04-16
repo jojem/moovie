@@ -1,0 +1,11 @@
+p{
+  color: white;
+}
+
+.container-1{
+  display: grid;
+}
+
+.con1{
+  grid-column: 1;
+}
