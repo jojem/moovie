@@ -4,24 +4,6 @@ body{
 
 }
 
-.owl-carousel.owlCarousel{
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-}
-
-
 
 .main-div{
 	position: absolute;
@@ -221,4 +203,22 @@ body{
 .item-10{
 	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
 
+}
+
+.slider-wrapper{
+	width: 700px;
+	height:200px;
+	margin: 40px;
+}
+.carousel-item{
+	position: inherit !important;
+}
+
+.list-group {
+	display: inline-block;
+}
+
+.list-group-item {
+	float:left;
+	display: inline-block;
 }
