@@ -5,7 +5,8 @@
 	<!-- <meta http-equiv="Refresh" content="5" /> -->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+	<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -17,90 +18,28 @@
 			<div id="country-page" class="nav_item"><a href="#country">Country</a></div>
 		</div>
 
-	<div class="slider-wrapper">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active list-group list-group-horizontal-md">
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-		    </div>
-		    <div class="carousel-item list-group list-group-horizontal-md">
-					<div class="item card list-group-item">
-						<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-						<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-					</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-		    </div>
-		    <div class="carousel-item list-group list-group-horizontal-md">
-					<div class="item card list-group-item">
-						<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-						<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-					</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-					<div class="item card list-group-item">
-	  				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
-	  				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
-	  			</div>
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-	</div>
-
-		<!-- <div class=" top-films baseline-items ">
-			<div class="card">
+		<div class="owl-carousel owl-theme top-films baseline-items">
+			<div class="item card">
 				<div class=" rectangle-cont item-2 front"><span>front 1</span></div>
 				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 1</a></div>
 			</div>
-			<div class="card">
+			<div class="item card">
 				<div class=" rectangle-cont item-2 front"><span>front 2</span></div>
 				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 2</a></div>
 			</div>
-			<div class="card">
+			<div class="item card">
 				<div class=" rectangle-cont item-2 front"><span>front 3</span></div>
 				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 3</a></div>
 			</div>
-			<div class="card">
+			<div class="item card">
 				<div class=" rectangle-cont item-2 front"><span>front 4</span></div>
 				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 4</a></div>
 			</div>
-			<div class="card">
+			<div class="item card">
 				<div class=" rectangle-cont item-2 front"><span>front 5</span></div>
 				<div class=" rectangle-cont item-1 back"><a href="con1.html">back 5</a></div>
 			</div>
-		</div> -->
+		</div>
 
 		<div class="main-container">
 			<div class="circle-cont item-1"><a href="con1.html">Something new</a></div>
@@ -117,7 +56,37 @@
 	</div>
 	<!-- <script src="js/index.js"></script> -->
 	<script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+	<script>
+
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+		items:4,
+		loop:true,
+		margin:10,
+		nav:true,
+		autoWidth:true,
+		autoplay:true,
+		autoplayTimeout:2000,
+		autoplayHoverPause:true
+		});
+		$('.play').on('click',function(){
+			owl.trigger('play.owl.autoplay',[1000])
+		});
+			$('.stop').on('click',function(){
+			owl.trigger('stop.owl.autoplay')
+		});
+	owl.on('mousewheel', '.owl-stage', function (e) {
+		if (e.deltaY>0) {
+				owl.trigger('next.owl');
+		} else {
+				owl.trigger('prev.owl');
+		}
+		e.preventDefault();
+	});
+
+	</script>
+
 
 </body>
 </html>

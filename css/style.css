@@ -1,7 +1,5 @@
 body{
 	background-color: black;
-
-
 }
 
 
@@ -10,12 +8,11 @@ body{
 	display: grid;
 	width: 100%;
 	grid-template-columns: 20% auto 20%;
-	grid-template-rows: 100px 400px auto 100px;
+	grid-template-rows: 100px 420px auto 100px;
 	grid-template-areas: "top top top"
 												"topfilms topfilms topfilms"
 												"left main right"
 												"bottom bottom bottom"
-
 }
 
 
@@ -29,7 +26,7 @@ body{
 	grid-template-columns:  1fr 1fr 1fr 1fr ;
 	text-align: center;
 	background-color: #63030b;
-	z-index: 1;
+	z-index: 99;
 	overflow: hidden;
 	box-shadow:
 		0 2px 5px 0 rgba(0,0,0,0.56),
@@ -41,6 +38,7 @@ body{
 		height: 60px;
 	}
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
   /* float: left; */
@@ -85,6 +83,7 @@ body{
 	align-items: baseline;
 	justify-content: center;
 	align-content: space-around;
+	max-width: 950px;
 }
 
 .circle-cont{
@@ -125,8 +124,49 @@ body{
 /* ________top films carusel__________ */
 .top-films{
 	grid-area: topfilms;
-	/* overflow: hidden; */
+	max-width: 1583px;
+	overflow: hidden;
 }
+@media only screen and (max-width: 1400px){
+	.top-films{
+		max-width: 1400px;
+	}
+}@media only screen and (max-width: 1300px){
+	.top-films{
+		max-width: 1300px;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.top-films{
+		max-width: 1200px;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.top-films{
+		max-width: 1000px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.top-films{
+		max-width: 800px;
+	}
+}
+@media only screen and (max-width: 700px){
+	.top-films{
+		max-width: 700px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.top-films{
+		max-width: 600px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.top-films{
+		max-width: 500px;
+	}
+}
+
 
 .card{
   position: relative;
@@ -165,60 +205,41 @@ body{
 }
 
 .item-1{
-	background-image: url('http://static.pexels.com/wp-content/uploads/2015/03/fog-forest-haze-4827-524x350.jpeg');
+	background-image: url('../cart/4.jpg');
 }
-
 .item-2{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 }
 
 /* запах женщины 8.5 */
 .item-3{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_4871.jpg');
+	background-image: url('../cart/3.jpg');
 
 }
 .item-4{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/4.jpg');
 
 }
 .item-5{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 
 }
 .item-6{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 }
 .item-7{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 
 }
 .item-8{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 
 }
 .item-9{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 
 }
 .item-10{
-	background-image: url('https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg');
+	background-image: url('../cart/3.jpg');
 
-}
-
-.slider-wrapper{
-	width: 700px;
-	height:200px;
-	margin: 40px;
-}
-.carousel-item{
-	position: inherit !important;
-}
-
-.list-group {
-	display: inline-block;
-}
-
-.list-group-item {
-	float:left;
-	display: inline-block;
 }
