@@ -276,53 +276,31 @@ footer p{
 
 .item-1{
 	background-image: url('../cart/freedom_writers.jpg');
-	width: 180px;
-	height: 180px;
 }
 .item-2{
 	background-image: url('../cart/wiplash.jpg');
-	width: 150px;
-	height: 150px;
 }
-
-/* запах женщины 8.5 */
 .item-3{
 	background-image: url('../cart/the_truman_show.jpg');
-	width: 130px;
-	height: 130px;
 }
 .item-4{
 	background-image: url('../cart/dead_poets_society.jpg');
-	width: 190px;
-	height: 190px;
 }
 .item-5{
 	background-image: url('../cart/green_book.jpg');
-	width: 200px;
-	height: 200px;
 }
 .item-6{
 	background-image: url('../cart/good_will_hunting.jpg');
-	width: 140px;
-	height: 140px;
 }
 .item-7{
 	background-image: url('../cart/beautiful_mind.jpg');
-	width: 200px;
-	height: 200px;
 }
 .item-8{
 	background-image: url('../cart/the_professor_and_the_madman.jpg');
-	width: 180px;
-	height: 180px;
 }
 .item-9{
 	background-image: url('../cart/pay_it_forward.jpg');
-	width: 170px;
-	height: 170px;
 }
 .item-10{
 	background-image: url('../cart/detachment.jpg');
-	width: 150px;
-	height: 150px;
 }
