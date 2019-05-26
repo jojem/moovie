@@ -22,11 +22,17 @@ h1{
 
 .content{
 	grid-area: main;
+	position: relative;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-items: flex-start;
 	flex-flow: row wrap;
+}
+
+.circle-cont{
+	position: sticky;
+	top:0;
 }
 
 .avatar{
