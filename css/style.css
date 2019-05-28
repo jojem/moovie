@@ -5,13 +5,18 @@ body{
 
 }
 
-a{
-	color: red;
+p{
+	color: white;
 	text-decoration: none;
+  font-family: 'Montserrat', sans-serif ;
+  font-size: 16pt;
+  letter-spacing:1px;
 }
 
-
-
+a{
+	text-decoration: none;
+	color: white;
+}
 
 .main-div{
 	position: absolute;
@@ -59,8 +64,9 @@ a{
 	display: block;
 	height: 100%;
   text-decoration: none;
-  font-size: 27px;
+  font-size: 20pt;
 	padding-top: 15px;
+	padding: 20px;
 }
 
 /* Change the color of links on hover */
@@ -73,9 +79,6 @@ a{
 .topnav a:active {
   color: #e2e222;
 }
-
-
-
 
 .baseline-items{
 	display: flex;
@@ -111,6 +114,7 @@ a{
   cursor: pointer;
 	justify-content: center;
 	align-items: center;
+	text-align:center;
   transition: .3s ease-out;
 }
 
@@ -118,7 +122,6 @@ a{
 	width: 210px;
 	height: 210px;
 }
-
 
 .circle-cont a{
 	position: relative;
@@ -130,7 +133,6 @@ a{
 	justify-content: center;
 	align-items: center;
 }
-
 
 /* ________top films carusel__________ */
 .top-films{
@@ -184,7 +186,6 @@ a{
 	}
 }
 
-
 .card{
   position: relative;
   margin: 20px;
@@ -231,7 +232,6 @@ a{
 .card:hover .back{
 	transform: rotateY(360deg);
 }
-
 
 footer {
 	grid-area: bottom;

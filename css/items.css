@@ -1,3 +1,9 @@
+/*back of top films carts*/
+.item-0{
+	background-image: url('../cart/sky7.jpg');
+	/*background-color: #63030b;*/
+}
+
 
 /*top films*/
 .top-item-1{
@@ -19,9 +25,7 @@
 }
 
 /*usual films*/
-.item-0{
-	background-image: url('../cart/4.jpg');
-}
+
 .item-1{
 	background-image: url('../cart/freedom_writers.jpg');
 }
